@@ -5,6 +5,7 @@ import AppBar                 from 'components/AppBar'
 import Home                   from 'containers/Home'
 import { appConfig }          from 'configs/config-main'
 import Button                 from 'components/Button'
+import SaveIcon                 from '@material-ui/icons/Save'
 
 // global styles for entire app
 import './styles.scss'
@@ -26,6 +27,7 @@ class App extends Component {
             color="primary"
             onClick={this.signIn}
           >
+            <SaveIcon />
             Sign into Apple Music
           </Button>
         </div>
