@@ -12,8 +12,8 @@ import './styles.scss'
 
 class App extends Component {
   signin = () => {
-    console.log('Click')
-    alert('Clicked')
+    console.log('click')
+    alert('clicked!')
   }
 
   render() {
