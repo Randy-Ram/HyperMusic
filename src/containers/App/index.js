@@ -11,9 +11,9 @@ import SaveIcon                 from '@material-ui/icons/Save'
 import './styles.scss'
 
 class App extends Component {
-  signIn = () => {
-    console.log('Click')
-    alert('Clicked')
+  signin = () => {
+    console.log('click')
+    alert('clicked!')
   }
 
   render() {
@@ -25,7 +25,7 @@ class App extends Component {
           <Button
             variant="fab"
             color="primary"
-            onClick={this.signIn}
+            onClick={this.signin}
           >
             <SaveIcon />
             Sign into Apple Music
