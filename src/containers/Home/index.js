@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-/* component styles */
+/* component styles for home */
 import { styles } from './styles.scss'
 
 class Home extends Component {
